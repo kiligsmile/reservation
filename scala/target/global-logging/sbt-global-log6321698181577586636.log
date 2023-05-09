@@ -1,0 +1,88 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.8.2 (Oracle Corporation Java 1.8.0_211)
+[debug] Load.defaultLoad until apply took 71.759555ms
+[debug]           Load.loadUnit: plugins took 86.472125ms
+[debug]           Load.loadUnit: defsScala took 0.346342ms
+[debug] [Loading] Scanning directory /Users/Kilig/Desktop/github/scala/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/Kilig/Desktop/github/scala/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 21.969111 ms
+[debug]               Load.resolveProject(scala-build) took 68.563816ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id scala-build, base: /Users/Kilig/Desktop/github/scala/project, plugins: List(<none>))) took 125.12626ms
+[debug] [Loading] Done in /Users/Kilig/Desktop/github/scala/project, returning: (scala-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 145.982719ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.306963ms
+[debug]         Load.loadUnit(file:/Users/Kilig/Desktop/github/scala/project/, ...) took 240.05429ms
+[debug]       Load.apply: load took 666.852941ms
+[debug]       Load.apply: resolveProjects took 6.948989ms
+[debug]       Load.apply: finalTransforms took 60.884197ms
+[debug]       Load.apply: config.delegates took 8.504626ms
+[debug]       Load.apply: Def.make(settings)... took 431.543079ms
+[debug]       Load.apply: structureIndex took 113.434218ms
+[debug]       Load.apply: mkStreams took 1.859401ms
+[info] loading project definition from /Users/Kilig/Desktop/github/scala/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 10973.102307ms
+[debug]     Load.loadUnit: defsScala took 0.005601ms
+[debug] [Loading] Scanning directory /Users/Kilig/Desktop/github/scala
+[debug]       Load.loadUnit: mkEval took 8.329921ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 3.043644 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 2.276493ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: /Users/Kilig/Desktop/github/scala, plugins: List(<none>))) took 6.376961ms
+[debug] [Loading] Done in /Users/Kilig/Desktop/github/scala, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 2330.453323ms
+[debug]     Load.loadUnit: cleanEvalClasses took 3.593779ms
+[debug]   Load.loadUnit(file:/Users/Kilig/Desktop/github/scala/, ...) took 13308.976935ms
+[debug] Load.apply: load took 13331.494116ms
+[debug] Load.apply: resolveProjects took 0.109309ms
+[debug] Load.apply: finalTransforms took 8.871846ms
+[debug] Load.apply: config.delegates took 0.337089ms
+[debug] Load.apply: Def.make(settings)... took 77.31959ms
+[debug] Load.apply: structureIndex took 26.169396ms
+[debug] Load.apply: mkStreams took 0.002473ms
+[info] set current project to scala (in build file:/Users/Kilig/Desktop/github/scala/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:///Users/Kilig/.sbt/1.0/server/2e0fcbc19333a62bfad1/sock
+[debug] Writing bsp connection file
+[info] started sbt server
